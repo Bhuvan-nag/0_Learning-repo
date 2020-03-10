@@ -1,0 +1,11 @@
+{
+	"cols": [{
+			"Label": " Name",
+			"template": "Name"
+		}, {
+			"Label": " Age",
+			"template": "Age"
+		}
+
+	]
+}

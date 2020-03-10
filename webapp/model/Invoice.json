@@ -1,0 +1,16 @@
+{
+	"Invoices": [{
+			"name": "Bhuvaana",
+			"age": 26,
+			"city": "Tamilnadu",
+			"male":true
+		},
+		{
+			"name": "Priya",
+			"age": 30,
+			"city": "Tiruppur",
+			"male":false
+		}
+
+	]
+}

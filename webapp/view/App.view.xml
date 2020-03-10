@@ -1,0 +1,32 @@
+<mvc:View controllerName="com.bhuvana.LearningOne.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<App id="app">
+		<pages>
+			<Page id="page" title="{i18n>title}">
+				<content>
+					<Button text="Click me" press="onExport"></Button>
+					<!--<HBox>-->
+					<!--	<Image src="../images/incture-ground-floor.jpg" class="incturephoto"/>-->
+					<!--	<VBox class="line"></VBox>-->
+					<!--	<VBox class="loginTextfieldBox">-->
+					<!--		<Input placeholder="Email" class="mail"/>-->
+					<!--		<Input placeholder="Password" class="input"/>-->
+					<!--		<Button text="login" class="btnLogin" press="onPressLogin"/>-->
+					<!--	</VBox>-->
+					<!--</HBox>-->
+				
+				<IconTabBar>
+					<items>
+						<IconTabFilter icon="sap-icon://account">
+							<core:Fragment fragmentName="com.bhuvana.LearningOne.view.table" type="XML"></core:Fragment>
+						</IconTabFilter>
+						<IconTabFilter icon="sap-icon://accept">
+							<core:Fragment fragmentName="com.bhuvana.LearningOne.view.form" type="XML"></core:Fragment>
+						</IconTabFilter>
+					</items>
+				</IconTabBar>
+			</content>
+		</Page>
+	</pages>
+</App>
+</mvc:View>

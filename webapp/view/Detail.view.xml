@@ -1,0 +1,22 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.bhuvana.LearningOne.controller.Detail"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:f="sap.ui.layout.form">
+	<App id="deatil">
+		<pages>
+			<Page title="Detail" showNavButton="true" navButtonPress="navBack">
+				<content>
+					<VBox>
+						<items>
+							<ObjectListItem
+							intro="{common>CompanyName}"
+							title="{common>City}"
+							number="{common>SupplierID}"
+							>
+								
+							</ObjectListItem>
+						</items>
+					</VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

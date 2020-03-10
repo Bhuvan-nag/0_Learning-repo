@@ -1,0 +1,4 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Button text="Export" icon="sap-icon://export"></Button>
+	<Input showValueHelp="true" valueHelpRequest="onShowValueHelp"></Input>
+</core:FragmentDefinition>

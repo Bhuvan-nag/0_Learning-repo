@@ -1,0 +1,12 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+	<BusyDialog
+	showCancelButton="true"
+	cancelButtonText="Cancel"
+	title="Request in progress.."
+	text="please wait untill the server responds.."
+	close="onCloseDialog"
+	>
+		
+	</BusyDialog>
+	
+</core:FragmentDefinition>
